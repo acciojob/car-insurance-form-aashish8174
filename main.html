@@ -3,10 +3,55 @@
 <html>
 
 <head>
+	
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+
+	<form method="post">
+		<h2>Car Insurance Registration Form</h2>
+		<label for="name"> Name</label>
+		<input id="name" type="text" required >
+		<br><br>
+		
+		<label for="email"> Email</label>
+		<input id="email" type="email" required >
+		<br><br>
+<!-- 		<label>Gender</label> -->
+		<label for="gender_m"> Male</label>
+		<input id="gender_m" type="radio" name="gender" required >
+		
+		<label for="gender_f"> Female</label>
+		<input type="radio" id="gender_f"  name="gender" required >
+		<br><br>
+		
+		<label for ="cars"> Car Brands</label>
+		<select name = "car" id="cars">
+			<option>BMW</option>
+			<option>Audi</option>
+			<option>Mercedez</option>
+		</select>
+		<br>
+		<br>
+			
+		<label for="carage"> Car Age</label>
+		<input id="carage" type="number" required >
+		<br><br>
+
+		<label for="dop">Date Of Purchase(dop)</label>
+		<input id="dop" type="date" required >
+		<br><br>
+		
+
+<!-- 		we use select for drowpdown -->
+		
+
+		<label for="password"> Password</label>
+		<input id="password" type="password" required >
+		<br><br>
+		<button>submit</button>
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
